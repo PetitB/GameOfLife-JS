@@ -33,11 +33,18 @@ function getNombreCellulesMortes(x, y) {
     return _dead;
 }
 
+function generateRandomValue(x,y){
+    rnd = Math.random();
+    if(rnd > 0.5)
+    grille[x][y] = 1;
+    else
+    grille[x][y] = 0;
+}
+
 // On parcours la grille
 for (indexLigne = 0; indexLigne < 5; indexLigne++) {
     for (indexColonne = 0; indexColonne < 5; indexColonne++) {
-        
-
+        generateRandomValue(indexLigne, indexColonne);
     }
 }
 console.log(grille);
