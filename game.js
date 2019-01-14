@@ -1,7 +1,9 @@
+
+
 var grille = [
     [0,0,0,0,0],
     [0,0,0,0,0],
-    [0,0,0,0,0],
+    [0,0,1,0,0],
     [0,0,0,0,0],
     [0,0,0,0,0],
 ];
@@ -34,6 +36,8 @@ function getNombreCellulesMortes(x, y) {
 // On parcours la grille
 for (indexLigne = 0; indexLigne < 5; indexLigne++) {
     for (indexColonne = 0; indexColonne < 5; indexColonne++) {
+        
 
     }
 }
+console.log(grille);
